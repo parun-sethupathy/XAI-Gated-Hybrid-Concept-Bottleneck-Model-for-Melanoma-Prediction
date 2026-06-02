@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Checkpoints
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Training Outputs
+HAM_checkpoints/
+Derm_Checkpoints/
+runs/
+logs/
+results/
+outputs/
+
+# Dataset Images
+Framework_for_ISIC/images/
+
+# OS
+Thumbs.db
+desktop.ini
