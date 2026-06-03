@@ -132,6 +132,18 @@ Each dataset pipeline can be trained and evaluated independently while sharing c
 
 ---
 
+## Pretrained Weights Availability
+
+The final trained checkpoints are not included in this repository because they exceed GitHub's file size limits.
+
+Researchers, reviewers, and students interested in reproducing the reported results may request access to the pretrained model weights by contacting:
+
+**parunms@gmail.com**
+
+Please include your intended use case, institution, or research context when requesting access.
+
+
+
 ## Current Status
 
 Project Status:
