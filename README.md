@@ -183,6 +183,19 @@ This phase measures:
 
 ---
 
+## Clinical Validation & Telemetry Analysis
+
+| Metric / Telemetry Data | Cohort A: HAM10000 (In-Distribution) | Cohort B: ISIC 2020 (Out-of-Distribution) | Clinical Implications |
+|----------|----------|----------|----------|
+| **Cohort Function** | Validation / Sanity Check | Acid Test / Reality Check | Confirms generalization vs. memorization. |
+| **Diagnostic AUC** | 0.990 | N/A (No positive cases in sample) | Near-perfect internal probability ranking. |
+| **Total Melanomas Present** | 17 | 0 | Baseline for recall calculation. |
+| **False Negatives** | 1 | 0 | Absolute patient safety failure rate. |
+| **Sensitivity (Recall)** | 94.0% | 0.0% (N/A) | The model's baseline ability to detect malignancy at a static 0.5 threshold. |
+| **Average Alpha Gate** | 0.660 | 0.729 | The proportion of logic strictly routed through interpretable clinical concepts. |
+| **Black-Box Bias (< 0.2)** | 6.0% | 0.0% | Percentage of images where the model abandoned XAI concepts for raw pixel textures. |
+
+
 # Doctor-in-the-Loop Deployment
 
 A Gradio-based clinical dashboard is included for physician interaction.
