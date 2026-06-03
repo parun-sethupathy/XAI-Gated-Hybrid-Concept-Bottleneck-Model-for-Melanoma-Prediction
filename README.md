@@ -1,6 +1,6 @@
 # XAI-Gated Hybrid Concept Bottleneck Model for Melanoma Prediction
 
-*A clinically aligned Explainable AI framework for melanoma diagnosis utilizing Hybrid Concept Bottleneck Models, dynamic Alpha-Gating, and rigorous out-of-distribution validation.*
+*A clinically aligned Explainable AI framework for melanoma diagnosis utilizing Hybrid Concept Bottleneck Models, dynamic Alpha-Gating, and extensive out of distribution validation.*
 
 ---
 
